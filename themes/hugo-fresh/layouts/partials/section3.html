@@ -4,7 +4,7 @@
 {{- $image      := index $section3 "image" }}
 {{- $buttonText := index $section3 "buttontext" }}
 {{- $buttonLink := index $section3 "buttonlink" }}
-<section class="section section-feature-grey is-medium">
+<section class="section section-feature-grey is-medium" style="background:linear-gradient(45deg, #9c88ff, #0097e6);">
   <div class="container">
     <div class="columns">
       <div class="column is-10 is-offset-1">
@@ -15,8 +15,8 @@
     </div>
 
     <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2">{{ $title }}</h2>
-      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <h2 class="title is-2 has-text-white">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted has-text-white">{{ $subtitle }}</h3>
     </div>
 
     <p class="has-text-centered mt-20">
@@ -25,4 +25,5 @@
       </a>
     </p>
   </div>
+  <div class="wavey"></div>
 </section>

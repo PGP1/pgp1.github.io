@@ -81,50 +81,54 @@ params:
       buttonText: Get started
   section2:
       title: How it works
-      subtitle: ____ is an integrated platform which aims to bring you and your plant into ultimate synchronicity!
+      subtitle: Plantly is an integrated platform which aims to bring you and your plant into ultimate synchronicity!
       features:
       - title: Plant Health Monitoring
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-        icon: speedometer
-      - title: Plant Health Monitoring
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-        icon: speedometer
-      - title: Plant Health Monitoring
-        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-        icon: speedometer 
-    # features:
-    # - title: Powerful and unified interface
-    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-    #   # Icon (from /images/illustrations/icons/___.svg)
-    #   icon: laptop-globe
-    # - title: Cross-device synchronisation
-    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-    #   icon: doc-sync
-    # - title: Nomad system
-    #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-    #   icon: mobile-feed
-  # section3:
-  #   title: One platform
-  #   subtitle: To rule them all
-  #   image: illustrations/mockups/app-mockup.png
-  #   buttonText: Get started
-  #   buttonLink: "#"
+        text: Plantly will monitor your plants health, ensuring that the optimal benchmarks are met to ensure your plant is healthy.
+        icon: health
+      - title: Predictive Machine Learning Power
+        text: Through machine learning, Plantly will autonomously optimise your plants growth through semi autonomously controlling your plants biome.
+        icon: ai2
+      - title: Live Alerts and Notifications
+        text: Plantly also offers a dashboard where you can visually view your plants health. Plantly will also send you notifications of your plant's health on the go.
+        icon: bell 
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    buttonText: Get started
+    buttonLink: "#"
   section4: 
     heading: Meet the team!
     subheading: We are a group of RMIT Students who are interested in shaping the ecosystem
     tiles: 
     - name: Thang Pham
-      icon: github.png
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+      id: 
+      icon: github
+      url: https://github.com/rockmanvnx6
+      icon2: linkedin
+      url2: https://linkedin.com/
     - name: Duy Nguyen
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+      icon: github
+      url: https://github.com/nugyn
+      icon2: linkedin
+      url2: https://linkedin.com/
     - name: Inci Keleher
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+      icon: github
+      url: https://github.com/inci90
+      icon2: linkedin
+      url2: https://linkedin.com/
     - name: Don Phu
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+      icon: github
+      url: https://github.com/DonneyDucka
+      icon2: linkedin
+      url2: https://linkedin.com/
     - name: Duy Vo
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-    
+      icon: github
+      url: https://github.com/thedavidvo
+      icon2: linkedin
+      url2: https://linkedin.com/
+      
 
     
     # clients:
@@ -149,9 +153,6 @@ params:
     #   job: HR Manager
     #   img: 3
   section5: false
-
-      
-
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg

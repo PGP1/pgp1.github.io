@@ -6329,29 +6329,42 @@ div.nav-item.is-drop {
 /* ==========================================================================
 Section Styles
 ========================================================================== */
-.section.section-light-grey {
-  background-color: #EFF4F7; }
-
-.section.section-feature-grey {
-  background-color: #fbfbfb; }
-
-.section.section-secondary {
-  background-color: #f5f6fa; }
-
-.section.section-half {
-  height: 75vh !important; }
-
-.section .title, .section .subtitle {
-  font-family: 'Open Sans', sans-serif; }
-
-.section .subtitle.is-muted {
-  color: #999; }
-
+.section {
+  position: relative; }
+  .section.section-light-grey {
+    background-color: #EFF4F7; }
+  .section.section-feature-grey {
+    background-color: #fbfbfb; }
+  .section.section-secondary {
+    background-color: white; }
+  .section.section-half {
+    height: 75vh !important; }
+  .section .title,
+  .section .subtitle {
+    font-family: "Open Sans", sans-serif; }
+  .section .subtitle.is-muted {
+    color: #999; }
+  @media (min-width: 769px) {
+    .section .offsetseconditem .column .media:nth-child(2) {
+      margin-left: 5em; } }
+  .section .wavey {
+    height: 150px;
+    left: 0;
+    display: block;
+    background: url(../images/illustrations/wave.svg) repeat-x;
+    position: absolute;
+    bottom: 0;
+    width: 101%;
+    transform: translateY(50%); }
+    @media (max-width: 1088px) {
+      .section .wavey {
+        display: none; } }
 .title-wrapper {
   max-width: 500px;
   margin: 0 auto; }
-  .title-wrapper .title, .title-wrapper .subtitle {
-    font-family: 'Open Sans', sans-serif; }
+  .title-wrapper .title,
+  .title-wrapper .subtitle {
+    font-family: "Open Sans", sans-serif; }
   .title-wrapper .subtitle.is-muted {
     color: #999; }
 
