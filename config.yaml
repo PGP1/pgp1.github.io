@@ -79,13 +79,19 @@ params:
       text: Let our model decide the next step to do to your plant
       url: /
       buttonText: Get started
-  # section2:
-  #     title: How it works
-  #     subtitle: ____ is an integrated platform which aims to bring you and your plant into ultimate synchronicity!
-  #     features:
-  #     - title: Plant Health Monitoring
-  #       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
-  #       icon: speedometer
+  section2:
+      title: How it works
+      subtitle: ____ is an integrated platform which aims to bring you and your plant into ultimate synchronicity!
+      features:
+      - title: Plant Health Monitoring
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+        icon: speedometer
+      - title: Plant Health Monitoring
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+        icon: speedometer
+      - title: Plant Health Monitoring
+        text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+        icon: speedometer 
     # features:
     # - title: Powerful and unified interface
     #   text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -103,31 +109,46 @@ params:
   #   image: illustrations/mockups/app-mockup.png
   #   buttonText: Get started
   #   buttonLink: "#"
-  # section4: 
-  #   title: Meet the team!
-  #   subtitle: We are a group of RMIT Students who are interested in the ecosystem
-  #   clients:
-  #   - name: Don Phu
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Accountant
-  #     img: 1
-  #   - name: Duy Nguyen
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: Financial Analyst
-  #     img: 2
-  #   - name: Thang Pham
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: HR Manager
-  #     img: 3
-  #   - name: Inci Keleher
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: HR Manager
-  #     img: 3
-  #   - name: Duy Vo
-  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-  #     job: HR Manager
-  #     img: 3
-  section5: true
+  section4: 
+    heading: Meet the team!
+    subheading: We are a group of RMIT Students who are interested in shaping the ecosystem
+    tiles: 
+    - name: Thang Pham
+      icon: github.png
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+    - name: Duy Nguyen
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+    - name: Inci Keleher
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+    - name: Don Phu
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+    - name: Duy Vo
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+    
+
+    
+    # clients:
+    # - name: Don Phu
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: Accountant
+    #   img: 1
+    # - name: Duy Nguyen
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: Financial Analyst
+    #   img: 2
+    # - name: Thang Pham
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: HR Manager
+    #   img: 3
+    # - name: Inci Keleher
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: HR Manager
+    #   img: 3
+    # - name: Duy Vo
+    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+    #   job: HR Manager
+    #   img: 3
+  section5: false
 
       
 

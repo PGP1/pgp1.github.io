@@ -1,34 +1,78 @@
+<!-- {{- $section1 := .Site.Params.section1 }}
+{{- $title    := index $section1 "title" }}
+{{- $subtitle := index $section1 "subtitle" }}
+{{- $tiles    := index $section1 "tiles" }}
+   -->
 {{- $section4 := .Site.Params.section4 }}
-{{- $title    := index $section4 "title" }}
+{{- $heading := index $section4 "heading" }}
+{{- $subheading := index $section4 "subheading" }}
+{{- $description := index $section4 "description" }}
+{{- $tiles := index $section4 "tiles" }}
+{{- $name := index $section4 "name" }}
 {{- $subtitle := index $section4 "subtitle" }}
-{{- $clients  := index $section4 "clients" }}
-<section class="section is-medium section-secondary">
-  <div class="container">
-
-    <div class="title-wrapper has-text-centered">
-      <h2 class="title is-2 light-text is-spaced">{{ $title }}</h2>
-      {{- with $subtitle }}
-      <h3 class="subtitle is-5 light-text">{{ . }}</h3>
-      {{- end }}
-    </div>
-
-    <div class="content-wrapper">
-      <div class="columns is-vcentered">
-        {{- range $clients }}
-        <div class="column is-4">
-          <figure class="testimonial">
-            <blockquote>
-              {{ .quote }}
-            </blockquote>
-            <div class="author">
-              <img src="{{ printf "/images/illustrations/faces/%s.png" (string .img) | relURL }}" alt=""/>
-              <h5>{{ .name }}</h5>
-              <span>{{ .job }}</span>
-            </div>
-          </figure>
-        </div>
-        {{- end }}
+<!-- {{- $clients  := index $section4 "clients" }} -->
+<section class="section is-medium section-secondary ">
+  <div class="content-wrapper">
+    <div class="container">
+      <div class="title-wrapper has-text-centered">
+        <h2 class="title is-2 has-text-black"> {{ $heading }} </h2>
+        <h3 class="subtitle is-5 has-text-black"> {{ $subheading }} </h3>
+        <div class="divider is-centered"></div>
       </div>
     </div>
+
+    <div class="columns mt-60">
+      {{- range $tiles }}
+      <div class="column">
+        <div class="box">
+          <article class="media">
+            <div class="media-content">
+              <div class="content has-text-centered">
+                <div>
+                  <center>
+                    <figure class="image is-64x64 is-centered">
+                      <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                    </figure>
+                  </center>
+                  <p>
+                    <strong>John Smith</strong><br>
+                    <small>@johnsmith</small>
+                  </p>
+                  <div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla
+                    egestas. Nullam condimentum luctus turpis.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      {{- end }}
+    </div>
+    <!-- <div class="columns is-desktop">
+        {{- range $tiles }}
+        <div class="column">
+          <div class="has-background-white has-text-centered revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-content">
+              <div class="title is-4">
+                <h4>{{ .name }}</h4>
+              </div>
+              <div class="card-icon">
+                  <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
+              </div>
+              <div class="content">
+                <p>{{ .description }}</p>
+              </div>
+              <div class="card-action">
+                <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div> -->
+
   </div>
+</section>
 </section>
