@@ -1,6 +1,6 @@
 baseURL: http://something-fresh.org/
 languageCode: en-us
-title: Hugo Fresh Theme
+title: pgp1
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
@@ -65,17 +65,17 @@ params:
     subtitle: with great responsibilities 
     tiles:
     - title: Dashboard
-      icon: doc-sync
+      icon: speedometer
       text: Track your plants growth data visually with a dashboard
       url: /
       buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
+    - title: Cloud Integration
+      icon: database
       text: This is some explanatory text that is on two rows
       url: /
       buttonText: Get started
     - title: Machine Learning
-      icon: plug-cloud
+      icon: ai
       text: Let our model decide the next step to do to your plant
       url: /
       buttonText: Get started
@@ -99,7 +99,7 @@ params:
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
-  section4:
+  section4: 
     title: Our Clients love us!
     subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
     clients:
