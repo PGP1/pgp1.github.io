@@ -67,17 +67,17 @@ params:
     - title: Dashboard
       icon: speedometer
       text: Track your plants growth data visually with a dashboard
-      url: /
+      url: /Dashboard
       buttonText: Get started
     - title: Cloud Integration
       icon: database
       text: Seamlessly access your plants data through with cloud
-      url: /
+      url: https://aws.amazon.com/
       buttonText: Learn More
     - title: Machine Learning
       icon: ai
       text: Have machine learning do all the hard work for you
-      url: /
+      url: https://www.tensorflow.org/ 
       buttonText: Learn more
   section2:
       title: How it works
@@ -97,7 +97,7 @@ params:
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
-    buttonLink: "#"
+    buttonLink: /Dashboard
   section4: 
     heading: Meet the team!
     subheading: We are a group of RMIT Students who are interested in shaping the ecosystem
@@ -151,21 +151,21 @@ params:
       icon: twitter
     - link: https://bitbucket.org/#
       icon: bitbucket
-    # bulmalogo: false
+    bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: "Sponsored by"
         links:
-        - text: Discover features
+        - text: RMIT University
+          link: https://www.rmit.edu.au/
+        - text: Amir Ashrafzadeh
           link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+        # - text: Compare features
+        #   link: /
+        # - text: Our roadmap
+        #   link: /
+        # - text: AGB
+        #   link: /agb
       column2:
         title: "About the company"
         links:
@@ -177,10 +177,10 @@ params:
           link: /
         - text: Developers
           link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+      # column3:
+      #   title: "Blog"
+      #   links:
+      #   - text: Latest news
+      #     link: /blog/first
+      #   - text: Tech articles
+      #     link: /blog/second
