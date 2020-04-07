@@ -19,10 +19,10 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/plant-logo.svg
     link: /
   font:
-    name: "Arial"
+    name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: /Dashboard
     # Hero image (from static/images/___)
     image: illustrations/freelancing.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -68,17 +68,17 @@ params:
       icon: speedometer
       text: Track your plants growth data visually with a dashboard
       url: /
-      buttonText: Free trial
+      buttonText: Get started
     - title: Cloud Integration
       icon: database
-      text: This is some explanatory text that is on two rows
+      text: Seamlessly access your plants data through with cloud
       url: /
-      buttonText: Get started
+      buttonText: Learn More
     - title: Machine Learning
       icon: ai
-      text: Let our model decide the next step to do to your plant
+      text: Have machine learning do all the hard work for you
       url: /
-      buttonText: Get started
+      buttonText: Learn more
   section2:
       title: How it works
       subtitle: Plantly is an integrated platform which aims to bring you and your plant into ultimate synchronicity!
@@ -103,64 +103,44 @@ params:
     subheading: We are a group of RMIT Students who are interested in shaping the ecosystem
     tiles: 
     - name: Thang Pham
-      id: 
+      face: austin.jpg
       icon: github
       url: https://github.com/rockmanvnx6
       icon2: linkedin
-      url2: https://linkedin.com/
+      url2: https://www.linkedin.com/in/pnt263/
     - name: Duy Nguyen
+      face: linh.jpg
       icon: github
       url: https://github.com/nugyn
       icon2: linkedin
-      url2: https://linkedin.com/
+      url2: https://www.linkedin.com/in/duy-linh-nguyen/
     - name: Inci Keleher
+      face: inci.jpg
       icon: github
       url: https://github.com/inci90
       icon2: linkedin
-      url2: https://linkedin.com/
+      url2: https://www.linkedin.com/in/isaac-keleher/
     - name: Don Phu
+      face: don.jpg
       icon: github
       url: https://github.com/DonneyDucka
       icon2: linkedin
-      url2: https://linkedin.com/
+      url2: https://www.linkedin.com/in/donphu/
     - name: Duy Vo
+      face: david.jpg
       icon: github
       url: https://github.com/thedavidvo
       icon2: linkedin
-      url2: https://linkedin.com/
-      
-
-    
-    # clients:
-    # - name: Don Phu
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: Accountant
-    #   img: 1
-    # - name: Duy Nguyen
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: Financial Analyst
-    #   img: 2
-    # - name: Thang Pham
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: HR Manager
-    #   img: 3
-    # - name: Inci Keleher
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: HR Manager
-    #   img: 3
-    # - name: Duy Vo
-    #   quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-    #   job: HR Manager
-    #   img: 3
+      url2: https://www.linkedin.com/in/duyyvo/
   section5: false
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: plant-logo.svg
     # Social Media Title
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/PGP1/pgp1.github.io
       # Icons are from Font Awesome
       icon: github
     - link: https://dribbble.com/#
@@ -171,7 +151,7 @@ params:
       icon: twitter
     - link: https://bitbucket.org/#
       icon: bitbucket
-    bulmalogo: true
+    # bulmalogo: false
     quicklinks:
       column1:
         title: "Product"
@@ -187,7 +167,7 @@ params:
         - text: AGB
           link: /agb
       column2:
-        title: "Docs"
+        title: "About the company"
         links:
         - text: Get started
           link: /

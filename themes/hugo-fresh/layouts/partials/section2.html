@@ -3,15 +3,13 @@
 {{- $subtitle := index $section2 "subtitle" }}
 {{- $features := index $section2 "features" }}
 
-<section class="section is-medium" style="margin-top:-150px;">
+<section class="section is-medium">
   <div class="container">
-    
-
     <div class="columns offsetseconditem has-text-centered">
       <div class="column is-flex is-centered-tablet-portrait"
         style="align-items:center; flex-direction:column; justify-content:center;">
-        <h1 class="title section-title" style="margin-top:100px">{{ $title }}</h1>
-        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        <h1 class="title section-title">{{ $title }}</h1>
+        <h3 class="subtitle is-6 is-muted">{{ $subtitle }}</h3>
         <!-- <div class="divider"></div> -->
       </div>
       <div class="column is-7">
@@ -22,7 +20,7 @@
               <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </p>
           </figure>
-          <div class="media-content mt-50">
+          <div class="media-content">
             <div class="content">
               <p>
                 <span class="icon-box-title">{{ .title }}</span>
