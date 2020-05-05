@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: /Dashboard
+    buttonlink: https://plantly.netlify.app/
     # Hero image (from static/images/___)
     image: illustrations/freelancing.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -56,9 +56,9 @@ params:
   #   - title: Dropdown item
   #     url: /
   - title: Log in
-    url: /Dashboard/login
+    url: https://plantly.netlify.app/login
   - title: Sign up
-    url: /Dashboard/register
+    url: https://plantly.netlify.app/register
     button: true
   section1:
     title: Great power comes
@@ -67,7 +67,7 @@ params:
     - title: Dashboard
       icon: speedometer
       text: Track your plants growth data visually with a dashboard
-      url: /Dashboard
+      url: https://plantly.netlify.app/
       buttonText: Get started
     - title: Cloud Integration
       icon: database
@@ -97,7 +97,7 @@ params:
     subtitle: To rule them all
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
-    buttonLink: /Dashboard
+    buttonLink: https://plantly.netlify.app/
   section4: 
     heading: Meet the team!
     subheading: We are a group of RMIT Students who are interested in shaping the ecosystem
