@@ -19,7 +19,7 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/plant-logo.svg
+    image: logos/logo.png
     link: /
   font:
     name: "Open Sans"
