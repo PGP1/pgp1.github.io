@@ -2,4 +2,22 @@
 
 This is plantly homepage, CD integration with Github Action and github page.
 
-Modify config.yaml to use the content.
+## Installation
+
+Hugo is needed for development
+
+```bash
+brew install hugo
+```
+
+## Development
+
+Simply replace `config.yaml` with your content
+
+## Build
+
+In order to build, run the following:
+
+```bash
+hugo -D
+```
